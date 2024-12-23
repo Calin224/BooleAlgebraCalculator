@@ -110,6 +110,7 @@ namespace BooleResolver
                         break;
                 }
                 
+                
                 string rightOperand = rightPart.Substring(0, rightOpEnd);
                 string rightRemainder = rightOpEnd < rightPart.Length ? rightPart.Substring(rightOpEnd) : "";
 
